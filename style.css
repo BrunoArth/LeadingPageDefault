@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #FFFFFF 16.62%, #808080 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header-image{
+    height: 50px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 50px;
+  
+}
+
+.header-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+}
+.header-menu-item:hover{
+    color: #FFFFFF;
+}
+
+.main{
+    margin-bottom: 50px;
+    border-top: 0.5px solid #000000;
+}
+
+.primary-content-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.text-primary-content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-primary-content-main-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 100;
+    color: #000000;
+}
+.text-primary-content-main-subtitle{
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    font-size: 10;
+    color: #000000;
+}
+
+.text-primary-content-main-button{
+    background-color: #000000;
+    border: none;
+    box-shadow: 5px 5px 5px #808080;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+.text-primary-content-main-button:hover{
+    background-color: #808080;
+}
+
+
+.image-primary-content-main{
+    height: 200px;
+}
+
+.secondary-content-main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondary-content-main-subtitle{
+    border-top: 0.5px solid #000000;
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.secondary-content-main-paragraph{
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.footer{
+    border-top: 0.5px solid #000000;
+    padding: 30px;
+}
+
+.footer-image{
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
